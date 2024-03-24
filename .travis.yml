@@ -19,7 +19,7 @@ after_success:
   - docker push devarshiroy93/multi-server
 deploy:
   provider: elasticbeanstalk
-  region: us-east-1
+  region: eu-north-1
   app: multi-docker
   env: Multi-docker-env
   bucket_name: elasticbeanstalk-eu-north-1-851725582337
